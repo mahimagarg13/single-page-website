@@ -1,0 +1,15 @@
+.link {
+  height: 38px;
+  width: 100px;
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover {
+  color: #fb5d14;
+  cursor: pointer;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}

@@ -1,0 +1,64 @@
+/* ServiceCard.css */
+.card {
+    background-color: #f3efef;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.1); /* Adding the outer line */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card::before {
+    content: '';
+  position: absolute;
+  top: 0;
+  right: -10px; /* Positioning the border to the right */
+  bottom: -10px; /* Positioning the border to the bottom */
+  left: 0;
+  border-right: 2px solid rgba(0, 0, 0, 0.1); /* Adding the right border */
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1); /* Adding the bottom border */
+  z-index: -1;
+  }
+  
+  .card h3 {
+    color: #00456b;
+  }
+  
+  .card a {
+    color:#FB5D14;
+    text-decoration: none;
+  }
+  
+  /* ServicesSection.css */
+  .services-section {
+    background-color: #FB5D14;
+    padding: 0;
+    position: relative;
+    height: 320px;
+    z-index: 0;
+  }
+  
+  .services-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: '980px' !important;
+  }
+  
+  .service-title {
+    color: white;
+    
+    font-size: 62px;
+    padding: 70px 300px;
+  }
+  
+  .description{
+    font-family: system-ui;
+    line-height: 1.8;
+  }

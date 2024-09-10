@@ -1,0 +1,55 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.link {
+  height: 38px;
+  width: 100px;
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover {
+  color: #fb5d14;
+  cursor: pointer;
+}
+
+.hero {
+  background: linear-gradient(135deg, #001f3f 30%, #ffcf03 100%);
+  color: white;
+  padding: 100px 150px;
+  /* text-align: center; */
+}
+.hero-title {
+  font-size: 38px;
+  line-height: 1.3em;
+  font-family: cursive;
+}
+
+.hero-subtitle {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 1.3em;
+  font-family: monospace;
+}
+
+.cta-btn {
+  transition: all 0.2s ease, visibility 0s;
+  background: #fb5d14;
+  border: 1px solid rgb(251, 93, 20);
+  border-radius: 8px;
+  font-family: cursive;
+}
+
+.services {
+  padding: 60px 0;
+  background-color: #f9f9f9;
+}
+.section-title {
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.service-card {
+  padding: 20px;
+}
